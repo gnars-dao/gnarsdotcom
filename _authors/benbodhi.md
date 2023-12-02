@@ -1,7 +1,7 @@
 ---
 username: benbodhi
 name: Benbodhi
-image: '/images/benbodhi.jpg'
+image: '/images/benbodhi.png'
 website: https://benbodhi.energy
 twitter: https://twitter.com/benbodhi
 ---
