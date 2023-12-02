@@ -1,0 +1,173 @@
+/* Author + Authors */
+
+// Authors Page
+.authors {
+  .authors__head {
+    margin: 20px 0 60px;
+  }
+
+  .authors__title {
+    font-size: 52px;
+    text-align: center;
+  }
+
+  .authors__info {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .authors__image {
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: var(--background-alt-color);
+    box-shadow: inset 0 0 0 13px var(--background-color);
+
+    &:hover {
+      transform: translateY(-4px);
+    }
+
+    img {
+      display: inline-block;
+      width: 220px;
+      height: 220px;
+      padding: 8px;
+      border: 5px solid var(--border-color);
+      border-radius: 50%;
+      object-fit: cover;
+      user-select: none;
+    }
+  }
+
+  .authors__name {
+    font-size: 36px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .authors__posts__count {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--heading-font-color);
+  }
+
+  .authors__description {
+    max-width: 380px;
+    margin: 24px auto 0;
+    font-size: 16px;
+  }
+
+  @media (max-width: $desktop) {
+    .authors__name {
+      font-size: 32px;
+    }
+  }
+
+  @media (max-width: $mobile) {
+
+    .authors__head {
+      margin: 20px 0 40px;
+    }
+
+    .authors__title {
+      font-size: 32px;
+    }
+
+    .authors__name {
+      font-size: 28px;
+    }
+
+    .authors__description {
+      max-width: 100%;
+    }
+  }
+}
+
+// Author Page
+.author {
+  .author__content {
+    margin: 20px 0 60px;
+    text-align: center;
+
+    p {
+      max-width: 740px;
+      margin: 0 auto 0;
+      font-size: 21px;
+    }
+  }
+
+  .author__image {
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: var(--background-alt-color);
+    box-shadow: inset 0 0 0 13px var(--background-color);
+
+    img {
+      display: inline-block;
+      width: 220px;
+      height: 220px;
+      padding: 8px;
+      border: 5px solid var(--border-color);
+      border-radius: 50%;
+      object-fit: cover;
+      user-select: none;
+    }
+  }
+
+  .author__name {
+    margin-bottom: 8px;
+    font-size: 52px;
+    line-height: 1.2;
+  }
+
+  .author__posts__count {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--heading-font-color);
+  }
+
+  .author__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+    .author__social__item {
+      padding: 12px 24px;
+      margin-right: 12px;
+      margin-bottom: 0;
+      font-size: 20px;
+      line-height: 1;
+      border-radius: 60px;
+      color: var(--link-color);
+      background-color: var(--light-gray);
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background-color: var(--darken-gray);
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    .author__name {
+      font-size: 32px;
+    }
+
+    .author__content p {
+      font-size: inherit;
+    }
+  }
+}

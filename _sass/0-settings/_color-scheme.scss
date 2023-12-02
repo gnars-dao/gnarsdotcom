@@ -1,0 +1,41 @@
+/* Color Scheme */
+:root {
+  --primary-color: #fb922b;
+  --secondary-color: #c33764;
+  --white: #fff;
+  --light-blue: #f3f7ff;
+  --gray: #414244;
+  --light-gray: #eee;
+  --dark-gray: #687385;
+  --darken-gray: #e3e3e3;
+  --blue-gray: #afb5bd;
+  --dark: #121315;
+  --dark-blue: #121315;
+
+  --image-gradient-color: linear-gradient(180deg, rgba(52, 97, 121, 0.85) 0%, rgba(20, 58, 78, 0.85) 100%); // To change the color of the gradient, add an RGB color code. For example - "65, 85, 230" and "195, 55, 100" (You can generate any color here - https://htmlcolorcodes.com).
+
+  --background-color: var(--white);
+  --background-alt-color: var(--blue-gray);
+  
+  --text-color: var(--dark);
+  --text-second-color: var(--dark-gray);
+  --text-alt-color: var(--blue-gray);
+  
+  --heading-font-color: var(--dark);
+
+  --link-color: var(--dark);
+  --link-color-hover: var(--dark);
+
+  --button-color: var(--white);
+  --button-background-color: var(--dark);
+  --button-background-hover: var(--primary-color);
+
+  --border-color: var(--light-gray);
+  --border-second-color: var(--darken-gray);
+  --border-alt-color: var(--blue-gray);
+
+  --th-color: var(--light-gray);
+  --tr-color: var(--light-gray);
+
+  --syntax-highlighting-background: #f3f3f3;
+}

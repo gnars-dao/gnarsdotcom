@@ -1,0 +1,69 @@
+<!-- begin footer -->
+<footer class="footer">
+
+  <div class="footer__inner">
+
+    {% include subscribe.html %}
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-6 col-d-12">
+          <div class="widget-footer widget-author">
+            <div class="widget-author__avatar">
+              <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
+            </div>
+            <h3 class="widget-author__title">{{ site.data.settings.author.author__name }}</h3>
+            {% if site.data.settings.author.author__bio %}
+            <p class="widget-author__bio">{{site.data.settings.author.author__bio}}</p>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="col col-2 col-m-12">
+          <div class="widget-footer widget-social">
+            <h3 class="widget-footer__title">Follow</h3>
+            {% if site.data.settings.social %}
+            <div class="social">
+              <ul class="social__list list-reset">
+                {% for social in site.data.settings.social %}
+                <li class="social__item">
+                  <i class="ion {{social.icon}}" style="background-color: {{social.color}};"></i>
+                  <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="{{social.label}} link">{{social.name | capitalize}}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="col col-2 col-m-12">
+          <div class="widget-footer widget-nav">
+            <h3 class="widget-footer__title">Menu</h3>
+            <ul class="widget-nav__list list-reset">
+              {% for item in site.data.settings.footer__menu__settings.menu__items %}
+              <li class="widget-nav__item">
+                <a href="{{ item.url | relative_url }}" class="widget-nav__link">{{ item.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__info">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="copyright">{{site.time | date: '%Y'}} <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1">CC0</a> <a href="/">{{site.data.settings.title}}</a> <a href="https://nouns.wtf/vote/51">⌐◨</a><a href="https://nouns.wtf/vote/382">-◨</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->

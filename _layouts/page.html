@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="page-head">
+
+    <div class="page__info">
+      <h1 class="page__title">{{ page.title | escape }}</h1>
+      {% if page.description %}
+        <p class="page__description">{{ page.description }}</p>
+      {% endif %}
+    </div>
+
+    {% if page.video_embed %}
+    <div class="page-video">
+      <div class="page-video__wrap">
+        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+
+    {% else page.id or page.path contains '_pages' or page.url contains '404' %}
+
+    {%if page.image %}
+    <div class="page-image">
+      <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+    </div>
+    {% endif %}
+
+    {% if page.image_caption %}
+      <div class="page-image-caption">{{ page.image_caption | markdownify | replace: '<p>' | replace: '</p>' }}</div>
+    {% endif %}
+
+    {% endif %}
+  
+  </div>
+</div>
+
+<!-- begin page -->
+<div class="container animate">
+
+  <article class="page">
+    <div class="page__content">
+      {{ content }}
+    </div>
+  </article>
+
+</div>
+<!-- end page -->
+
+{% if page.name == '404.html' %}
+<!-- begin recent posts -->
+<div class="recent-posts animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head__small">
+              <h2 class="section__title">Recent Posts</h2>
+              <a class="section__link" href="/">Back to homepage <i class="ion ion-ios-arrow-round-forward"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts limit:3 %}
+        {% include article.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<!-- end recent posts -->
+{% endif %}

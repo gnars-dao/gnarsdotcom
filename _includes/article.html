@@ -1,0 +1,53 @@
+<div class="article col col-4 col-d-6 col-t-12 animate grid__post">
+  <div class="article__inner">
+
+    <div class="article__head">
+      {% if post.video_embed %}
+      <div class="video-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+          <polygon points="40,30 65,50 40,70"></polygon>
+        </svg>
+      </div>
+      {% endif %}
+
+      <a class="article__image" href="{{post.url | prepend: site.baseurl}}">
+      {% if post.image %}
+        <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+      {% endif %}
+      </a>
+
+      <div class="article__meta">
+        {% assign author = site.authors | where: 'username', post.author | first %}
+        {% if author %}
+        <a href="{{ author.url }}" class="article__author__image" title="{{ author.name }}">
+          <img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}">
+        </a>
+        {% else %}
+        <a href="{{site.baseurl}}/about/" class="article__author__image" title="{{site.data.settings.author.author__name}}">
+          <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
+        </a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="article__content">
+
+      {% if post.tags.size >= 1 %}
+      <div class="article-tags__box">
+        {% for tag in post.tags %}
+          <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="article__tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <h2 class="article__title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+      <p class="article__excerpt">
+        {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 160 }}{% endif %}
+      </p>
+    </div>
+
+  </div>
+</div>

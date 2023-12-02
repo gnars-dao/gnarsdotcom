@@ -1,0 +1,51 @@
+<!-- begin search -->
+<div class="search">
+  <div class="search__box">
+    <div class="search__group">
+      <div class="search__close">
+        <i class="ion ion-md-close"></i>
+      </div>
+      <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+      <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+    </div>
+    <div class="search-results-list" id="js-results-container"></div>
+    <div class="search-suggestion">
+
+      <div class="search-recent">
+        <h3 class="search-suggestion__title">Recent content</h3>
+        <div class="search-recent__inner">
+          {% for post in site.posts limit:4 %}
+          <div class="search-recent__item">
+            {% if post.image %}
+              <a class="search-recent__image" href="{{ post.url }}"><img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}"></a>
+            {% endif %}
+            <div class="search-recent__content">
+              <div class="search-recent__meta">
+                <time class="search-recent__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+              </div>
+              <h4 class="search-recent__title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      {% if site.tags.size >= 1 %}
+      <div class="search-tags">
+        <h3 class="search-suggestion__title">Popular topics</h3>
+        {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+        {% assign tag_words = site_tags | split:',' | sort %}
+        <div class="search-tags__inner">
+        {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+        {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+          <a href="{{ site.baseurl }}/tags/?tag={{ this_word | cgi_escape }}" class="search-tag">{{ this_word }}</a>
+        {% endunless %}
+        {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+<!-- end search -->

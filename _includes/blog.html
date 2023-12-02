@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="section__info">
+    <div class="section__head">
+      <h2 class="section__title">{{ site.data.settings.blog.blog__title }}</h2>
+      {% if site.data.settings.blog.blog__description %}
+        <p class="section__description">{{ site.data.settings.blog.blog__description }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="row grid">
+    {% if site.posts.size > 0 %}
+      {% for post in paginator.posts %}
+        {% include article.html %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

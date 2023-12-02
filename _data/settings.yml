@@ -1,0 +1,98 @@
+#-------------------------------
+# Site Settings
+title: Gnars - Action Sports Accelerator
+logo: "/images/logo.png"
+description: Gnars is an action sports accelerator and community owned brand. Headless so you can shred more. We bring shredders onchain and get them paid. ⌐◨-◨
+
+
+#-------------------------------
+# Author Global Settings
+author:
+  author__name: Gnars
+  author__bio: Gnars is an action sports accelerator and community owned brand. Headless so you can shred more. We bring shredders onchain and get them paid. ⌐◨-◨
+  author__avatar: /images/gnars.png
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: '⚙️ How it works'
+      url: '/about/'
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Action sports accelerator. Community owned brand. <span id="totalBalance">...loading...</a></span> in grants ready to deploy ✨
+
+#-------------------------------
+# Blog Settings
+blog:
+  blog__title: Zine
+  blog__description: Latest releases, updates and resources
+
+
+#-------------------------------
+# Recommended Tag Settings
+tag:
+  enable: true
+  tag__title: Releases
+  tag__name: releases
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: false
+  mailchimp__identifier:  # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__title: Gnarly News
+  mailchimp__description: Subscribe to our newsletter and we’ll send you updates from time to time.
+  mailchimp__input__text: Your Email Address...
+  mailchimp__button__text: Subscribe
+  mailchimp__background__image: "/images/110.jpg"
+
+
+#-------------------------------
+# Footer Settings
+
+# Footer Navigation
+footer__menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About us'
+      url: '/about/'
+    - title: 'Governance'
+      url: 'https://gnars.wtf'
+    - title: 'Authors'
+      url: '/authors/'
+    
+# Social Links
+social:
+- {icon: "ion-logo-twitter", color: "#55acee", name: Twitter, link: "https://twitter.com/gnars_dao"}
+- {icon: "ion-logo-instagram", color: "#e4405f", name: Instagram, link: "https://instagram.com/gnarsdao"}
+- {icon: "ion-logo-github", color: "#2e2e2e", name: GitHub, link: "https://github.com/gnars-dao"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-youtube", color: "#ff0000", name: Youtube, link: "https://youtube.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: mail@gnars.com # Add your email for contant form
+
+# NOTE
+# You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: false
+  disqus__identifier:  # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: G-W41VLT4PNY

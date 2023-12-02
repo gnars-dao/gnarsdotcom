@@ -1,0 +1,33 @@
+/* Section Tags */
+.section-tags {
+  margin-top: 96px;
+
+  .article__image {
+    min-height: auto;
+  }
+
+  .article__title {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  @supports not (aspect-ratio: 3/2) {
+    .article__image {
+      min-height: auto;
+    }
+  }
+
+  @media (max-width: $desktop) {
+    margin-top: 80px;
+  }
+
+  @media (max-width: $mobile) {
+    .row .article:last-child {
+      margin-bottom: 0;
+    }
+
+    .article__title {
+      font-size: 22px;
+    }
+  }
+}

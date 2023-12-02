@@ -1,0 +1,57 @@
+/* Tags */
+.tags__inner {
+
+  &.is-hidden {
+    display: none;
+  }
+
+  .tag__info {
+    margin: 20px 0 60px;
+    text-align: center;
+  }
+
+  .tag__image {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: var(--background-alt-color);
+    box-shadow: inset 0 0 0 13px var(--background-color);
+
+    img {
+      display: inline-block;
+      width: 220px;
+      height: 220px;
+      padding: 8px;
+      border: 5px solid var(--border-color);
+      border-radius: 50%;
+      object-fit: cover;
+      user-select: none;
+    }
+  }
+
+  .tag__name {
+    margin-bottom: 8px;
+    font-size: 52px;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+
+  .tag__counter {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  @media (max-width: $tablet) {
+    .article:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    .tag__name {
+      font-size: 32px;
+    }
+  }
+}
