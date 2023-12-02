@@ -12,7 +12,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 12
+paginate: 9
 paginate_path: "/page/:num"
 
 

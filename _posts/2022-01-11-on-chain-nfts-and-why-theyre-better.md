@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On-chain NFTs and Why They’re Better
-description: 
+description: On-chain NFTs are tokens completely written on the (Ethereum) blockchain, implemented with metadata and smart contract both existing on the blockchain.
 date: 2022-01-11 00:00:00 +0000
 permalink: /on-chain-nfts-and-why-theyre-better/
 author: gami
