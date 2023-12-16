@@ -15,7 +15,7 @@ Thanks to rapid advancements in tech, getting onchain is easy. You once had to u
 
 ## Upload + Earn = Stoke
 
-1. [Sign up for Zora](https://zora.co/create?referrer=0x11404F59b482a173c22BbA38e1C3FB83f7B2607A) with your email
+1. [Sign up for Zora](https://zora.co/invite/zora.gnars.eth) with your email
 2. Upload your content (make it free)
 3. Earn crypto from your collectors
 
@@ -33,6 +33,6 @@ We like to fund public goods like skatepark refurbishments, creative stuff like 
 
 Why not upload one of your Instagram videos to Zora right now? Then pop into our Discord server to let us know and we'll collect it. We're bringing a million shredders onchain so they can see that there's more to being a creator than chasing likes.
 
-#### [Sign up for Zora](https://zora.co/create?referrer=0x11404F59b482a173c22BbA38e1C3FB83f7B2607A) ✨
+#### [Sign up for Zora](https://zora.co/invite/zora.gnars.eth) ✨
 
 *note: we are zora power users so if you have any questions feel free to ask*
