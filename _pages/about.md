@@ -7,7 +7,7 @@ video_embed: https://www.youtube.com/embed/JQSmfSnRGVk
 image: '/images/110.jpg'
 ---
 
-**Gnars** exists to accelerate adoption of Web3 technologies by the action sports community. We're a global collective of athletes and enthusiasts pioneering the new creator economy. Operating a decentralised governance system, we use NFTs sold through ongoing auctions to vote on how we spend our [shared treasury](https://gnars.wtf/dao). 
+**Gnars** exists to accelerate adoption of Web3 technologies by the action sports community. We're a global collective of athletes and enthusiasts pioneering the new creator economy. Operating a decentralised governance system, we use NFTs sold through ongoing auctions to vote on how we spend our [shared treasury](https://nouns.build/dao/base/0x880Fb3Cf5c6Cc2d7DFC13a993E839a9411200C17/5019?tab=activity). 
 
 > Just like "getting online" was transformative in the 90s, getting onchain is transformative today. Creators who've been posting to social media for likes, are now putting their work onchain, earning crypto from 1000s of collectors.
 

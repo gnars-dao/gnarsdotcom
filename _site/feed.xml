@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Gnars - Action Sports Accelerator</title>
+        <description>Gnars is an action sports accelerator and community owned brand. Headless so you can shred more. We bring shredders onchain and get them paid. ⌐◨-◨</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 15 Mar 2024 14:19:03 +1100</pubDate>
+        <lastBuildDate>Fri, 15 Mar 2024 14:19:03 +1100</lastBuildDate>
+        <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title></title>
+                <description>
+</description>
+                <pubDate>Wed, 22 Nov 2023 11:00:00 +1100</pubDate>
+                <link>http://localhost:4000/here-for-you/</link>
+                <guid isPermaLink="true">http://localhost:4000/here-for-you/</guid>
+                
+                <category>snowboarding</category>
+                
+                <category>skiing</category>
+                
+                <category>releases</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>
+</description>
+                <pubDate>Tue, 21 Nov 2023 11:00:00 +1100</pubDate>
+                <link>http://localhost:4000/phillipine-cablewake/</link>
+                <guid isPermaLink="true">http://localhost:4000/phillipine-cablewake/</guid>
+                
+                <category>wakeboarding</category>
+                
+                <category>releases</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>
+</description>
+                <pubDate>Mon, 20 Nov 2023 11:00:00 +1100</pubDate>
+                <link>http://localhost:4000/gnars-ly/</link>
+                <guid isPermaLink="true">http://localhost:4000/gnars-ly/</guid>
+                
+                <category>skateboarding</category>
+                
+                <category>releases</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;Gnars DAO uses Snapshot for submitting and voting on proposals. This post serves as a guide for submitting proposals and gaining access to funding from the community treasury.&lt;/p&gt;
+
+&lt;p&gt;We also have a &lt;a href=&quot;https://trapezoidal-healer-f79.notion.site/For-Gnarthletes-8bf3d9138b0e4a41bc4374e95e3a9b1e&quot;&gt;knowledge base for Gnars athletes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-youll-need&quot;&gt;What you’ll need&lt;/h2&gt;
+
+&lt;p&gt;Before attempting to submit a proposal, ensure you have the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;At least 12 Gnars (NFT) in your wallet&lt;/li&gt;
+  &lt;li&gt;Availability 4 days later to request execution&lt;/li&gt;
+  &lt;li&gt;More than 0.15 Ξ for bond (refunded)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proposal-timeline&quot;&gt;Proposal timeline&lt;/h2&gt;
+
+&lt;p&gt;From proposal submission to transfer of funds totals 8 days:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 day: voting delay&lt;/li&gt;
+  &lt;li&gt;3 days: voting&lt;/li&gt;
+  &lt;li&gt;2 days: timeout&lt;/li&gt;
+  &lt;li&gt;2 days: cooldown&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More on the above later in this post.&lt;/p&gt;
+
+&lt;h2 id=&quot;proposal-submission&quot;&gt;Proposal submission&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Visit &lt;a href=&quot;https://snapshot.org/#/gnars.eth&quot;&gt;snapshot.org/#/gnars.eth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Connect your wallet and click on &lt;a href=&quot;https://snapshot.org/#/gnars.eth/create/1&quot;&gt;New proposal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Enter a Title and Description using &lt;a href=&quot;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&quot;&gt;markdown syntax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Paste a Discussion link (Discord #Proposals post)&lt;/li&gt;
+  &lt;li&gt;Click on Continue, note down Voting period end&lt;/li&gt;
+  &lt;li&gt;Click on Continue, then Add transaction batch&lt;/li&gt;
+  &lt;li&gt;Paste recipient’s ETH address in To field&lt;/li&gt;
+  &lt;li&gt;Enter the Amount in ETH to withdraw&lt;/li&gt;
+  &lt;li&gt;Click on Publish and you’re done&lt;/li&gt;
+  &lt;li&gt;Voting starts in 24 hours&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;proposal-completion&quot;&gt;Proposal completion&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Revisit when Voting period is complete&lt;/li&gt;
+  &lt;li&gt;Scroll down to Transactions and Request execution&lt;/li&gt;
+  &lt;li&gt;Once transaction confirms, Set outcome (match voting result)&lt;/li&gt;
+  &lt;li&gt;This transaction requires you to offer a 0.15 ETH bond&lt;/li&gt;
+  &lt;li&gt;(Anyone can challenge outcome by doubling bond)&lt;/li&gt;
+  &lt;li&gt;Allow 2 days for outcome to finalise (timeout)&lt;/li&gt;
+  &lt;li&gt;Another 2 days until executable (cooldown)&lt;/li&gt;
+  &lt;li&gt;Claim your bond and execute transaction&lt;/li&gt;
+  &lt;li&gt;Check ETH is in recipient’s wallet&lt;/li&gt;
+  &lt;li&gt;Funding is now complete&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you’re unavailable after Proposal submission, don’t worry, anyone can do the Proposal completion steps.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 21 Oct 2022 11:00:00 +1100</pubDate>
+                <link>http://localhost:4000/create-snapshot-proposals/</link>
+                <guid isPermaLink="true">http://localhost:4000/create-snapshot-proposals/</guid>
+                
+                <category>tutorial</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;Nouns DAO funds Gnars DAO, a community that celebrates the artistry of extreme athletes.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 13 Sep 2022 10:00:00 +1000</pubDate>
+                <link>http://localhost:4000/a-new-way-to-fund-extreme-athletes/</link>
+                <guid isPermaLink="true">http://localhost:4000/a-new-way-to-fund-extreme-athletes/</guid>
+                
+                <category>community</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;Two legendary skateboarding pros, &lt;a href=&quot;https://www.instagram.com/DaveBachinsky/&quot;&gt;Dave Bachinsky&lt;/a&gt; and &lt;a href=&quot;https://www.instagram.com/kevin_kowalski&quot;&gt;Kevin Kowalski&lt;/a&gt;, are joining Gnars DAO as &lt;a href=&quot;https://nft.nyc&quot;&gt;NFT NYC&lt;/a&gt; special guests for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Our billboard viewing during Time Square road closure,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Go_Skateboarding_Day&quot;&gt;Go Skateboarding Day&lt;/a&gt; sesh at &lt;a href=&quot;https://skatethestates.com/les-skatepark/&quot;&gt;LES Coleman Skatepark&lt;/a&gt;, and&lt;/li&gt;
+  &lt;li&gt;film shoot with &lt;a href=&quot;https://nounish.world&quot;&gt;Nounish&lt;/a&gt; film crew (Nouns DAO funded).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday 21 June 2022:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;8:30am –&lt;/strong&gt; Times Square road closure for billboard viewing&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;9:30am –&lt;/strong&gt; Make our way down to LES Coleman Skatepark&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;10:30am –&lt;/strong&gt; Go Skateboarding Day x Gnars DAO meetup&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;11:00am –&lt;/strong&gt; Nounish film crew will capture the vibes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1:30pm –&lt;/strong&gt; Head back to NFT NYC with crew, or&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3:00pm –&lt;/strong&gt; Hang with &lt;a href=&quot;https://skatepark.org/&quot;&gt;The Skatepark Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zora.co/collections/0xe83e0977c1861b3a82540ea74c2b8754823862ad/1&quot;&gt;Shred the Gnar&lt;/a&gt;, our first ever collab, will be screening 700+ times across 4 days and auctioned off, with proceeds split 50/50 between &lt;a href=&quot;https://etherscan.io/tokenholdings?a=0x0658f4eD17289144717713ADfFC2539eF7c2EF8e&quot;&gt;Gnars DAO&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/SeaksMr&quot;&gt;MrSeaks&lt;/a&gt;!&lt;/p&gt;
+
+&lt;iframe allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;608&quot; loading=&quot;lazy&quot; src=&quot;https://player.vimeo.com/video/703168649?h=615d22b386&amp;amp;dnt=1&amp;amp;app_id=122963&quot; title=&quot;Gnars X MrSeaks NFTNYC&quot; width=&quot;1080&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;For those who can’t make it to NFT NYC, you can still get in on the action with us online and simply need to register your interest by &lt;a href=&quot;https://discord.gg/46f2wVHcNS?event=984703370348593193&quot;&gt;joining our event on Discord&lt;/a&gt;!&lt;/p&gt;
+</description>
+                <pubDate>Mon, 13 Jun 2022 10:00:00 +1000</pubDate>
+                <link>http://localhost:4000/nft-nyc-2022/</link>
+                <guid isPermaLink="true">http://localhost:4000/nft-nyc-2022/</guid>
+                
+                <category>events</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;Joe came to visit Sydney for a month at the end of 2016 to soak up the sun and chill with the boys. A few fun sessions soon evolved into something more serious as Joe laced some of the biggest hammers Sydney has seen!&lt;/p&gt;
+
+&lt;p&gt;Featuring: JOE ATKISNON&lt;br /&gt;
+Directed, Filmed, Edited : DOM WEST&lt;br /&gt;
+Additional Cinematography : BLAKE CASTLE&lt;br /&gt;
+Photography : ADAM KOLA&lt;br /&gt;
+Titles : VAN SANTANA&lt;/p&gt;
+</description>
+                <pubDate>Mon, 09 May 2022 19:27:38 +1000</pubDate>
+                <link>http://localhost:4000/joe-atkinson-x-sydney/</link>
+                <guid isPermaLink="true">http://localhost:4000/joe-atkinson-x-sydney/</guid>
+                
+                <category>inline skating</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;A collaboration between Gnars DAO and MrSeaks for NFT.NYC being broadcasted all over times square billboards.&lt;/p&gt;
+
+&lt;p&gt;Directed and produced by MrSeaks with Amy Bell on the backgrounds.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 09 May 2022 10:00:00 +1000</pubDate>
+                <link>http://localhost:4000/gnars-dao-x-mr-seaks/</link>
+                <guid isPermaLink="true">http://localhost:4000/gnars-dao-x-mr-seaks/</guid>
+                
+                <category>animation</category>
+                
+                <category>releases</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;Unlike cryptocurrency markets where price action and support levels make sense, the NFT marketplace doesn’t work that way. We’re still in the era of FOMO and FUD, where volatility and unpredictability is a normal circumstance.&lt;/p&gt;
+
+&lt;p&gt;In that case, how can you navigate the ever-changing NFT scene?&lt;/p&gt;
+
+&lt;p&gt;A good place to start is by identifying blue chip SolNFTs, ones with a strong community, powerful utility, and a dedicated core team. If you don’t know what are some high-potential NFTs in the Solana ecosystem, do give our article on “&lt;a href=&quot;https://art.haus/top-solana-nft-projects/&quot;&gt;Top 10 Solana NFT Projects&lt;/a&gt;” a read!&lt;/p&gt;
+
+&lt;p&gt;But for those starting small, blue chips may not be in line with your budget. How then, can you start flipping NFTs from scratch? In this article, I’ll be sharing some awesome FREE Solana NFT tools, which will definitely help you have an easier time identifying the next killer project!&lt;/p&gt;
+
+&lt;p&gt;Without further ado, let’s get into it.&lt;/p&gt;
+
+&lt;h2 id=&quot;solana-nft-wallets&quot;&gt;Solana NFT Wallets&lt;/h2&gt;
+
+&lt;p&gt;Solana NFT wallets are the first thing you’d need to start trading NFTs. We’re obviously referring to decentralized software wallets here, so if your SOL is stashed in a Coinbase wallet, you’ll need to transfer it out.&lt;/p&gt;
+
+&lt;p&gt;Luckily for you, creating a Solana NFT wallet is easy… and free! Here are two Solana NFT wallets I recommend you use.&lt;/p&gt;
+
+&lt;h3 id=&quot;phantom&quot;&gt;Phantom&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://phantom.app/&quot;&gt;Phantom&lt;/a&gt; is a free software wallet built for Solana users. Whether you’re on IOS, Android, or using browsers like Google and Brave, they’ve got you covered.&lt;/p&gt;
+
+&lt;p&gt;As one of the most established Solana NFT wallets in the space, I’d 100% recommend that you create a Phantom wallet. The main reason is tons of integrations with other related websites, such as NFT marketplaces, custom auction sites, etc.&lt;/p&gt;
+
+&lt;p&gt;Their UI is pretty clean as well, showing your crypto balance, Solana NFTs, transaction activity, and settings for configuration. A beginner-friendly extension, Phantom is a must-have Solana NFT tool for traders.&lt;/p&gt;
+
+&lt;h3 id=&quot;slope&quot;&gt;Slope&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://slope.finance/&quot;&gt;Slope&lt;/a&gt; is another awesome Solana NFT wallet that you should download. Akin to Phantom, Slope is also a widely accepted wallet to connect with NFT sites, and can be used on IOS, Android, and as an extension.&lt;/p&gt;
+
+&lt;p&gt;One winning feature of Slope is its “Auto-approval” toggle button, which allows you to approve transactions without a second confirmation. Usually, wallets such as Phantom would require you to “approve” a transaction once more after you’ve hit a button, which could waste precious time in a high-demand mint.&lt;/p&gt;
+
+&lt;p&gt;By flipping on the “Auto-approval” switch, you can mint SolNFTs faster and not miss out due to slow fingers. But hey, the risk goes both ways… don’t fat-finger it!&lt;/p&gt;
+
+&lt;h2 id=&quot;solana-nft-marketplaces&quot;&gt;Solana NFT Marketplaces&lt;/h2&gt;
+
+&lt;p&gt;After you’ve got your Solana software wallet all set, it’s time to find a marketplace where you can trade your NFTs.&lt;/p&gt;
+
+&lt;p&gt;There’s a host of up-and-coming Solana NFT marketplaces, but I prefer to stick with those that have been tried and tested. (speaking from personal experience, of course!)&lt;/p&gt;
+
+&lt;p&gt;Here are two marketplaces I use often.&lt;/p&gt;
+
+&lt;h2 id=&quot;magiceden&quot;&gt;MagicEden&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://magiceden.io/&quot;&gt;MagicEden&lt;/a&gt; is the OpenSea of the Solana NFT ecosystem. With a total volume of close to 11 million SOL on the platform so far, this puts ME far ahead of its other Solana NFT marketplace competitors.&lt;/p&gt;
+
+&lt;p&gt;MagicEden is great because of its popularity. Literally every half-decent Solana NFT collection is featured on MagicEden, because that’s where the buyers are. If you want to trade a particular NFT collection, you can count on MagicEden to have it.&lt;/p&gt;
+
+&lt;p&gt;The platform also has multi-featured functionality, consolidating all your Solana NFT activities into one place. Aside from the individual NFT collection pages, MagicEden also has a Launchpad (for projects to mint off), auction pages to bid on 1/1 artworks, and also a stats page to track NFT project volume.&lt;/p&gt;
+
+&lt;p&gt;For any Solana NFT trader, having MagicEden on tab is a must-do!&lt;/p&gt;
+
+&lt;h3 id=&quot;solsea&quot;&gt;SolSea&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://solsea.io/&quot;&gt;SolSea&lt;/a&gt; is another NFT marketplace, with much less volume as compared to MagicEden. And deservedly so, I feel that SolSea is a poor marketplace choice to do NFT trading on, because of their “listing fee” which never gets refunded. (unlike ME)&lt;/p&gt;
+
+&lt;p&gt;The only reason for recommending SolSea in this piece is their art presence in the Solana ecosystem. Despite being a poor Solana NFT tool for trading, SolSea is still my go-to for finding awesome blockchain art to buy for arts patronage.&lt;/p&gt;
+
+&lt;p&gt;Finding great art, the truly well-drawn 1/1’s, is pretty difficult on MagicEden and other platforms. But SolSea helps you find them through their filter feature (filter by art/PFP), and gives you an acceptable range of great art to discover.&lt;/p&gt;
+
+&lt;p&gt;But as far as NFT trading goes, stick with MagicEden as your Solana NFT tool of choice.&lt;/p&gt;
+
+&lt;h2 id=&quot;solana-nft-blockchain-explorers&quot;&gt;Solana NFT Blockchain Explorers&lt;/h2&gt;
+
+&lt;p&gt;Now, we’re starting to get into the real “trading” aspect of SolNFTs.&lt;/p&gt;
+
+&lt;p&gt;One underrated but overpowered technique when trading NFTs is to look at price action and sales of the overall collection. This sounds like a paid tool is required, but no… there are free ones everywhere!&lt;/p&gt;
+
+&lt;p&gt;Of course, we’re talking about the blockchain. Yes, what better resource than the open ledger which tracks all transactions? Let me recommend two Solana NFT Blockchain explorers which give you a picture of sales volume; in real-time.&lt;/p&gt;
+
+&lt;h3 id=&quot;solscan&quot;&gt;Solscan&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://solscan.io/nfts#trades&quot;&gt;Solscan&lt;/a&gt; is a free Solana-focused blockchain explorer, where you can track transactions on the Solana blockchain in real-time (1-2 minutes difference max).&lt;/p&gt;
+
+&lt;p&gt;Since tracking all the transactions on the Solana blockchain is not necessary, Solscan has implemented an NFT filter feature, so only NFT sales are shown.&lt;/p&gt;
+
+&lt;p&gt;In the NFT category, you can explore individual NFTs, top collections, new projects that have been minted, and much more. But I only focus on the “Trade” section, which displays the selling of NFTs, and by who.&lt;/p&gt;
+
+&lt;p&gt;This way, we can track collections that have been selling more and more by the minute. To make sure that it’s not an individual buying his own NFTs, we can also ensure that wallet addresses buying these NFTs aren’t the same.&lt;/p&gt;
+
+&lt;p&gt;When seeing many sales of a particular NFT project, it could be time to jump in before a breakout. Be sure to check this Solana NFT tool out, that’s how I got introduced to secondary plays in SolNFTs!&lt;/p&gt;
+
+&lt;h3 id=&quot;scour&quot;&gt;Scour&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://scour.so/&quot;&gt;Scour&lt;/a&gt; is another Solana NFT blockchain explorer with an additional layer of features as compared to Solscan.&lt;/p&gt;
+
+&lt;p&gt;On the occasion that Solscan goes down, I usually transition to Scour. Scour has a page to discover new and “trending” NFT projects, so you’ll have to navigate to “Activity” to check out all the live sales in the Solana ecosystem.&lt;/p&gt;
+
+&lt;p&gt;A great feature of Scour is its ability to track not only sales, but also listings, price drops, and bids of individual collections. While Solscan is better at showing you the entire picture, Scour can be used for sniping individual collections and tracking their performance.&lt;/p&gt;
+
+&lt;p&gt;In this sense, Scour acts as both a blockchain explorer and a price tracking tool. Personally, I wouldn’t use it to track prices as there are better tools out there (we’ll be covering next), but it certainly makes their service more comprehensive!&lt;/p&gt;
+
+&lt;h2 id=&quot;solana-nft-tracking-tools&quot;&gt;Solana NFT Tracking Tools&lt;/h2&gt;
+
+&lt;p&gt;Solana NFT tracking tools are perhaps the most important when it comes to SolNFT trading. These are the services that help traders make informed decisions based on various parameters.&lt;/p&gt;
+
+&lt;p&gt;Let’s explore some of these Solana NFT tracking tools, and what each of them can offer to the user.&lt;/p&gt;
+
+&lt;h3 id=&quot;hyperspace-formerly-solanalysis&quot;&gt;Hyperspace (Formerly Solanalysis)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hyperspace.xyz/&quot;&gt;Hyperspace&lt;/a&gt; was once known as Solanalysis, and was one of the original NFT tracking tools which provided such statistics to traders for free.&lt;/p&gt;
+
+&lt;p&gt;While Hyperspace has evolved into a hybrid between an NFT marketplace with floor tracking abilities, and some of its competitors have “overtaken” it in a sense, I find that one thing still stands out for this platform.&lt;/p&gt;
+
+&lt;p&gt;It is their precision of tracking – which is as close to “real-time data” as you can get. Having a look at the price of popular collections, SOL’s price and more, I’ve found that Hyperspace updates theirs the quickest. A big help if you’re making plays by the second.&lt;/p&gt;
+
+&lt;h3 id=&quot;solsniper&quot;&gt;SolSniper&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.solsniper.xyz/&quot;&gt;SolSniper&lt;/a&gt; has been a hidden gem for a pretty long time, but it’s finally gaining visibility in the Solana NFT space. I would say SolSniper is the most helpful and valuable Solana NFT tool for tracking projects; people wouldn’t hesitate to pay for their services.&lt;/p&gt;
+
+&lt;p&gt;SolSniper displays trending collections and what people are searching for at the moment, a good indicator of what’s getting hype. A dive deeper and we find their Live “blockchain explorer” type system, which refreshes every few seconds.&lt;/p&gt;
+
+&lt;p&gt;SolSniper’s main features come in when you click on an NFT project. A Tradingview-inspired graph appears, along with the total number of listed NFTs and an RSI (Relative Strength Index) indicator. This truly makes you feel like a crypto trader!&lt;/p&gt;
+
+&lt;p&gt;I find SolSniper’s “Watchlist” tool most helpful. Add any NFT collection to your watchlist, and you’ll get an interactive chart with the floor price of the collection against the number of listings. Traders usually watch for the correlation between these two variables… a consistently lowered listing count usually means a bullrun for the NFTs’ floor price!&lt;/p&gt;
+
+&lt;h3 id=&quot;solradar&quot;&gt;SolRadar&lt;/h3&gt;
+
+&lt;p&gt;Before SolSniper, I guess NFT traders used &lt;a href=&quot;https://solradar.io/&quot;&gt;SolRadar&lt;/a&gt; to identify secondary plays. But now, I still find some of SolRadar’s features relevant to let it remain on the list of worthy Solana NFT tools.&lt;/p&gt;
+
+&lt;p&gt;A unique feature of SolRadar is its Price Movers section, showing the 24H highest sale, lowest sale, and whales that spent big.&lt;/p&gt;
+
+&lt;p&gt;Another innovative category that SolRadar displays are an NFT project’s social presence, which as we explored in previous articles, can make or break a project. This function tracks the percentage change of Discord members and Twitter followers for a particular community.&lt;/p&gt;
+
+&lt;p&gt;In all, a combination of this trio; real-time updates from Hyperspace, charts from SolSniper, and socials tracking from SolRadar, is key to unlocking a master trading strategy.&lt;/p&gt;
+
+&lt;h2 id=&quot;solana-nft-rarity-checker&quot;&gt;Solana NFT Rarity Checker&lt;/h2&gt;
+
+&lt;p&gt;Another vital aspect of NFT trading is the rarity of your NFT. As you should know, the more scarce the features of your NFT have, the higher the rarity rank it holds. But this can be pretty difficult to tell… especially if the founders of the project make it random.&lt;/p&gt;
+
+&lt;p&gt;So how can you tell the right price to list your NFT at?&lt;/p&gt;
+
+&lt;p&gt;Here are some Solana NFT tools you can try to check and confirm your NFT rarity ranking.&lt;/p&gt;
+
+&lt;h3 id=&quot;moonrank--howrareis&quot;&gt;MoonRank &amp;amp; HowRare.is&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://moonrank.app/&quot;&gt;MoonRank&lt;/a&gt; and &lt;a href=&quot;https://howrare.is/&quot;&gt;HowRare.is&lt;/a&gt; are two different ranking systems, but I’ve grouped them together because you should use them hand-in-hand. You know, one to cross-check with the other, in case there are some technical errors on either side.&lt;/p&gt;
+
+&lt;p&gt;Both MoonRank and HowRare.is are able to determine your NFT’s rarity ranking. Simply navigate to their website, choose your collection, and input your NFT id in the search bar.&lt;/p&gt;
+
+&lt;p&gt;For more established NFT collections, MagicEden would already have integrated both rarity rankings of MoonRank and HowRare.is, saving you the hassle of checking it on their sites.&lt;/p&gt;
+
+&lt;p&gt;If you’re wondering why your NFT is ranked differently by MoonRank and HowRare.is, it’s probably due to the difference in their way of trait rarity calculations. So which do you deem “correct” if there are two contrasting rarity rankings?&lt;/p&gt;
+
+&lt;h3 id=&quot;solrarity&quot;&gt;SolRarity&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://solrarity.app/dashboard&quot;&gt;SolRarity&lt;/a&gt; is another Solana NFT tool for rarity checking, but this one is a little different. While they have a website, SolRarity has its rarity checking services done on a Discord server.&lt;/p&gt;
+
+&lt;p&gt;To check your NFT rarity ranking on SolRarity, head to their Discord server, and find the appropriate channels titled “Rarity-checker”. The next steps would be finding your collection’s tag, and inputting your NFT id beside it before hitting “send”.&lt;/p&gt;
+
+&lt;p&gt;Eh, you’ll get it when you enter the Discord! I find it incredibly useful since I’m on Discord most of the time, and it eliminates the confusion between MoonRank and HowRare.is having different rarity rankings.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h2&gt;
+
+&lt;p&gt;So that’s all the Solana NFT tools we have for today! As a beginner in the Solana NFT trading space, having access to these tools will be helpful; in more ways than you can imagine.&lt;/p&gt;
+
+&lt;p&gt;Of course, these tools all have their limitations. For example, Solscan may just stop functioning properly at times, and MagicEden has had its fair share of site crashes and bugs.&lt;/p&gt;
+
+&lt;p&gt;But since these are all free Solana NFT tools, why not make use of them… at least till you can afford better premium tools! But that begs the question, are premium Solana NFT tools really better than these already amazing free ones?&lt;/p&gt;
+
+&lt;p&gt;That’s a story for another day.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 23 Apr 2022 10:00:00 +1000</pubDate>
+                <link>http://localhost:4000/solana-nft-tools/</link>
+                <guid isPermaLink="true">http://localhost:4000/solana-nft-tools/</guid>
+                
+                <category>education</category>
+                
+                
+            </item>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;Solana NFTs, the up-and-coming underdogs of the 20 billion dollar NFT industry. Will they flip Ethereum NFTs in the near future? Probably not. But does this mean Solana NFTs don’t have growth potential like their Ethereum counterparts? Absolutely not!&lt;/p&gt;
+
+&lt;p&gt;For those not trading Solana NFTs, you may wonder, what separates them from Cardano NFTs (which never really took off)? Or rather, why are Solana NFTs receiving so much attention? Well for one, OpenSea just listed a select few Solana NFT collections on its marketplace, giving them way more exposure to the NFT community.&lt;/p&gt;
+
+&lt;p&gt;In this article, we will be talking about the best of those select few Solana projects. If you’re an ETH maxi looking to load up on some Solana NFT blue chips, get ready, this will be a long list.&lt;/p&gt;
+
+&lt;h2 id=&quot;best-solana-nft-projects&quot;&gt;Best Solana NFT Projects&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: All the Solana NFT projects listed below are that of my (Blowned.eth) personal opinion. They are not solely based on market cap/utility, but more on my perception of their future growth potential. As &lt;a href=&quot;https://twitter.com/iamDCinvestor/status/1514016206017204224&quot;&gt;DCinvestor.eth&lt;/a&gt; perfectly put it, “One man’s garbage is another man’s future historical NFT.” This is an opinion piece, not NFT alpha. Without further ado, enjoy!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-solana-monkey-business--the-cryptopunks-of-solana&quot;&gt;1) Solana Monkey Business – The CryptoPunks of Solana&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://solanamonkey.business/&quot;&gt;Solana Monkey Business&lt;/a&gt;(SMB) is one of the OG projects in the Solana NFT ecosystem. Launching its extremely limited Gen1 Monkeys collection around a year ago in early June 2021, SMB didn’t immediately take off.&lt;/p&gt;
+
+&lt;p&gt;As August rolled around, SMB decided to launch their next collection of 5000 Gen2 Monkeys. With a mint price of $69 USDC (or 2 SOL at that time), and Solana’s market cap skyrocketing at this time, it’s no surprise that SMB sold like hotcakes.&lt;/p&gt;
+
+&lt;p&gt;Today, SMB’s floor price rests at a solid 200 SOL. But what makes SMB still a solid project to invest in?&lt;/p&gt;
+
+&lt;p&gt;For one, SMB is one of the only Solana NFT projects that have stood the test of time. While it may not be the first-ever Solana collection, it certainly is one of the most successful in terms of traded volume.&lt;/p&gt;
+
+&lt;p&gt;As for utility, you can expect to mix with the Solana NFT whales in their community. They also have an &lt;a href=&quot;https://market.solanamonkey.business/&quot;&gt;SMB NFT marketplace&lt;/a&gt;, the only place where you can purchase an SMB Gen1 monkey if an auction is hosted. So as far as Solana blue-chip NFTs go, SMB would be one of your top choices!&lt;/p&gt;
+
+&lt;h3 id=&quot;2-degods--building-bayc-on-solana&quot;&gt;2) DeGods – Building “BAYC” on Solana&lt;/h3&gt;
+
+&lt;p&gt;The moment you see DeGods NFT, you’ll be hit with BAYC vibes. The &lt;a href=&quot;https://www.degods.com/&quot;&gt;DeGods NFT&lt;/a&gt; collection launched in October 2021, around the height of Solana, but it has been going from strength to strength ever since. I would attribute their success to two key factors; An excellent team with ambition, and well-thought-out mechanisms that simply work.&lt;/p&gt;
+
+&lt;p&gt;One look at DeGods main site reveals the ambition of the DeGods community. They have staking mechanisms, raffle and auction houses, a native token, and even a “DeMap” showing the geographic locations of some DeGods holders. Upon getting a DeGods, you’ll have access to this host of utilities.&lt;/p&gt;
+
+&lt;p&gt;Another aspect of DeGods that appeals to me is their genius mechanisms. Take for example their “&lt;a href=&quot;https://docs.degods.com/&quot;&gt;Paperhand Bitch Tax&lt;/a&gt;” right after mint, where paperhands (those who sold under buy price or floor price) were slapped with an additional 33.3% sell tax. The SOL collected from this tax was used to buy back more DeGods, and instead of them going to the core team’s wallet, these NFTs were “burned”, or permanently removed from the collection. This is but one of the methods DeGods leveraged to encourage HODLers, scare away FUDDers.&lt;/p&gt;
+
+&lt;p&gt;DeGods’ most recent venture is DeadGods, a “mutation” of DeGods that makes 3x more $DUST (their native token) per day compared to DeGods. The community behind DeGods is also determined to establish &lt;a href=&quot;https://docs.dustprotocol.com/&quot;&gt;$DUST&lt;/a&gt; in the Solana ecosystem, and is working towards further $DUST adoption by other Solana NFT projects.&lt;/p&gt;
+
+&lt;p&gt;So, are DeGods worth the 180 SOL? It’s a “Yes” from me, especially if you dig the BAYC vibes.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-taiyo-robotics--de-rugged-turnaround&quot;&gt;3) Taiyo Robotics – De-Rugged Turnaround&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://taiyorobotics.com/&quot;&gt;Taiyo Robotics&lt;/a&gt; make it on this list because they’re one of the great turnaround stories in the Solana NFT space. Back in December 2021, the community of Taiyos was completely opposite of what it is today. With the floor price at 2-3 Solana and steadily declining, devs reluctant to continue the project, many were thinking that Taiyo Robotics would end up as a slow rug.&lt;/p&gt;
+
+&lt;p&gt;So Tom from Solport stepped in, and his team acquired the project. Since then, the Taiyo spirit has been revived, and it certainly has taken some finesse to rise to their floor of around 140 SOL today.&lt;/p&gt;
+
+&lt;p&gt;Something extraordinary about Taiyo Robotics is its dual-roadmap system. After taking over the Solana NFT project, the Solport team promised to stick to the original Taiyo roadmap, but deliver their own “value-added” roadmap as well.&lt;/p&gt;
+
+&lt;p&gt;To date, they have somewhat delivered on their promise. Staking Taiyos to earn the native token ($SCRAP) is up, along with “Breeding” Taiyos and an exclusive merch store to be set up soon. This fulfills the original Taiyos roadmap.&lt;/p&gt;
+
+&lt;p&gt;On top of that, you’ll get extra benefits by having a Taiyo once Solport.io’s affiliate program kicks in. &lt;a href=&quot;https://solport.io/&quot;&gt;Solport.io&lt;/a&gt; is a marketplace for Solana NFTs, a competitor of MagicEden, and Taiyos will earn a commission if they successfully refer other projects to launch on Solport.&lt;/p&gt;
+
+&lt;p&gt;In all, if the devs can overcome the challenges of de-rugging, I don’t see why they can’t bring Taiyo Robotics to even further heights!&lt;/p&gt;
+
+&lt;h3 id=&quot;4-astrals--dao-style&quot;&gt;4) Astrals – DAO Style&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astralsnft.io/&quot;&gt;Astrals&lt;/a&gt; is one of the more affordable Solana NFT collections on this list, with its floor price sitting just under 20 SOL at the time of writing. What strikes me the most about Astrals is its DAO-style approach to further developments.&lt;/p&gt;
+
+&lt;p&gt;Being a part of Astrals means getting a say in their initial 2.5 million dollar Galaxy Treasury. The core team at Astrals has big plans; including a native token mint ($GLXY), metaverse and 3D integration of Astrals characters, and even a P2E mini-game sometime in Q3-Q4 this year.&lt;/p&gt;
+
+&lt;p&gt;This Solana NFT project goes by the conventional but underrated system of managing funds; a DAO. By being an Astrals holder, one can create proposals and put them to vote through the rest of the Astrals community, getting treasury funds if approved.&lt;/p&gt;
+
+&lt;p&gt;One interesting thing to take note of is that &lt;a href=&quot;https://mobile.twitter.com/SHAQ&quot;&gt;Shaq&lt;/a&gt; (Yes, the legendary NBA athlete), is part of the core team of Astrals. I guess that gives Astrals the marketing boost it needs… this project should blow up if the metaverse integration turns out well!&lt;/p&gt;
+
+&lt;h3 id=&quot;5-cets-on-creck--strong-af-community&quot;&gt;5) Cets On Creck – Strong AF Community&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cetsoncreck.com/&quot;&gt;Cets on Creck &lt;/a&gt;is one of the best examples of a strong community upholding an otherwise “typical” project. As someone who skipped out on the CoC mint even though I had their WL token, I’m still regretting that decision today.&lt;/p&gt;
+
+&lt;p&gt;Back in early March 2022, there were three insanely hyped Solana NFT projects. Astrals was the “Utility” play, &lt;a href=&quot;https://www.drippies.space/&quot;&gt;Drippies&lt;/a&gt; (never really took off) was the “Art” play, and Cets were the Degen play. It seems like Degen has won out.&lt;/p&gt;
+
+&lt;p&gt;Since Cets on Creck didn’t have a set “roadmap” or utility, they banked on Solana NFT Degens apeing into their project. I guess you could say they had good art, but so did Drippies.&lt;/p&gt;
+
+&lt;p&gt;What I think makes CoC an indestructible project is their community. Shortly after selling out, CoC had a dip to as low as 1.2 SOL. But it seems like many Solana NFT whales, and even some migrating over from Ethereum NFTs, have put their money behind CoC, pushing out paperhands and elevating the project to what they are today.&lt;/p&gt;
+
+&lt;p&gt;As of now, CoC has the funds to give back to the community. They have a Cets staking portal to earn $CRECK, and a merchandise shop for the fam. There’s also a “Bleck market” set up, for raffles and auctions (in the future).&lt;/p&gt;
+
+&lt;p&gt;If you believe community is everything, then perhaps degen-ing into at 50 SOL is worth the play.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-famous-fox-federation--innovative-services&quot;&gt;6) Famous Fox Federation – Innovative Services&lt;/h3&gt;
+
+&lt;p&gt;I always admire &lt;a href=&quot;https://famousfoxes.com/&quot;&gt;Famous Fox Federation&lt;/a&gt; for the host of useful services they provide to the community. Personally if I had the liquidity to spare, FFF would surely be a Solana NFT project I’d invest in.&lt;/p&gt;
+
+&lt;p&gt;While other Solana NFT projects create their native token for NFT staking, and try to establish themselves in the space, FFF goes another route. They provide helpful services to the community, and of course, owning a Famous Fox will be a “premium” version of those services.&lt;/p&gt;
+
+&lt;p&gt;Take for example, FFF’s &lt;a href=&quot;https://famousfoxes.com/tokenmarket&quot;&gt;Famous Token Market&lt;/a&gt;. This is one of the most widely-used services, where Solana NFT’ers can buy and sell Whitelist tokens for Solana NFT projects. Since WL-meta grinding is a thing, some people basically depend on FFF to make their flips! If FFF is not giving back to the community, then I don’t know which project does!&lt;/p&gt;
+
+&lt;p&gt;Aside from the Famous Token Market, FFF also provides bulk sending and listing services, floor-sweeping solutions, and even a P2P NFT trading portal with escrow secured by FFF themselves! All these services require $FOXY, increasing the adoption of FFF’s native token ingeniously.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to be part of a project that provides supreme utility to the Solana NFT community, FFF is the one for you. After all, they’re still only at 33 SOL!&lt;/p&gt;
+
+&lt;h3 id=&quot;7-aurory--p2e-on-solana&quot;&gt;7) Aurory – P2E on Solana&lt;/h3&gt;
+
+&lt;p&gt;What makes Aurory different from all other projects promising a P2E game? Well the incriminating difference is: &lt;a href=&quot;https://aurory.io/&quot;&gt;Aurory&lt;/a&gt; started with an awesome P2E game. Not just a promise in the air.&lt;/p&gt;
+
+&lt;p&gt;The Aurory team is huge, comprising software developers and project leads from established gaming companies like Ubisoft and EA. Thus, it’s no surprise that they’ve gotten the backing of top-tier VCs such as Animoca Brands (the company behind The Sandbox).&lt;/p&gt;
+
+&lt;p&gt;The Aurory game is as well-designed as what you’d expect from a web2 MOBA, even though Aurory is technically web3! Aurory being both a PvE and PvP game, filled with character quests along with turn-based combat rounds, the gaming atmosphere in Aurory is diverse. They’re currently sitting at a 40 SOL floor price.&lt;/p&gt;
+
+&lt;p&gt;It should come without saying that Aurory also has their own token $AURY, thus allowing the game to be “P2E”. For those who believe in the future of metaverse games, Aurory is one of the select few to choose from in the Solana NFT P2E arena.&lt;/p&gt;
+
+&lt;h3 id=&quot;8-portals--virtual-property-metaverse&quot;&gt;8) Portals – Virtual Property Metaverse&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://theportal.to/&quot;&gt;Portals&lt;/a&gt; is a “city-themed” metaverse built on the Solana blockchain, and is one of the more promising virtual property plays. They are still building Portals downtown, or the city where you can vibe in web3 at.&lt;/p&gt;
+
+&lt;p&gt;Currently, the build is still in BETA. Holders of Portals NFT would have early access to this virtual world, and will be granted ownership of real estate in this metaverse.&lt;/p&gt;
+
+&lt;p&gt;But if you don’t have 50 SOL to spare, Portals also has a collection of Standard Citizen Cards. For just 0.6 SOL, you’ll get a personal “pod” outside of the city center (Downtown), essentially a vibing spot where you can invite friends and chat in your personal space.&lt;/p&gt;
+
+&lt;p&gt;I see Portals as an established Solana NFT project with a bright future. Despite being still in the world-building phase, Portals have partnered with VCs such as Solana Ventures, secured Angel investors, as well as collaborated with metaverse-focused agencies.&lt;/p&gt;
+
+&lt;p&gt;Could Portals be the Decentraland of Solana?&lt;/p&gt;
+
+&lt;h3 id=&quot;9-space-runners--fashion-experience&quot;&gt;9) Space Runners – Fashion Experience&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spacerunners.com/&quot;&gt;Space Runners&lt;/a&gt; is a metaverse fashion brand, with the motive of bringing famous athletes and fan communities together. At the moment, their fashion element is concentrated on the shoes. This really gives me the RTFKT feeling, Space Runners could live up to their Ethereum counterparts!&lt;/p&gt;
+
+&lt;p&gt;Most notably, Space Runners has collaborated with Kyle Kuzma and Nick Young, their NFT champions. This gives Space Runners holders the opportunity to receive courtside tickets, admission to exclusive sporting events, and even signed merch from the NBA champions themselves!&lt;/p&gt;
+
+&lt;p&gt;Space Runners is also building a metaverse called Spaceverse, where you can flex your Space Runners and other wearables. In fact, they already have &lt;a href=&quot;https://spacerunners.com/spaceverse&quot;&gt;a teaser&lt;/a&gt; for this metaverse, and the UI looks superb to me.&lt;/p&gt;
+
+&lt;p&gt;Finally, Space Runners is developing their Augmented Reality system, which would let users view their web3 merch IRL. All these new initiatives and technology being implemented by Space Runners comprehensively bring fashion into the metaverse, so they’re surely a Solana NFT project you should look out for.&lt;/p&gt;
+
+&lt;h3 id=&quot;10-solgods--a-successful-arts-story&quot;&gt;10) SOLGods – A Successful Arts Story&lt;/h3&gt;
+
+&lt;p&gt;And last but not least, we have &lt;a href=&quot;https://thefracture.art/&quot;&gt;SOLGods&lt;/a&gt;. Throughout this whole article, it seems that a bulk of the projects had some sort of utility, or external factor that pushed them to success. Well not SOLGods, they relied clearly on literature and arts.&lt;/p&gt;
+
+&lt;p&gt;SOLGods to me is all about the story. With a background story (a few chapters!) to set the context for SOLGods, further NFT airdrops to keep its holders up-to-date with the progression of SOLGods lore, and not forgetting amazing art, SOLGods have soared to a respectable Floor price of 42.69 SOL. (LOL I’m not joking, really is this fp rn)&lt;/p&gt;
+
+&lt;p&gt;While SOLGods have not initially planned for things such as a DAO or merch, it seems that they’re actively listening to the community for suggestions. You can expect developments on SOLGods to come soon.&lt;/p&gt;
+
+&lt;p&gt;Another interesting aspect of the project is their page “&lt;a href=&quot;https://thefracture.art/the-final-enigma/&quot;&gt;The Final Enigma&lt;/a&gt;“. In classic riddle-style format, SOLGods give a short extract of lore before asking the readers to crack the riddle, and possibly earn a prize. I can see that if SOLGods goes in this direction, the project could be huge.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap Up&lt;/h2&gt;
+
+&lt;p&gt;And… done! If you’re still reading this, thanks for sticking to the end!&lt;/p&gt;
+
+&lt;p&gt;I hope this list of Solana NFT projects helped you find some collections that flew under your radar, I made sure not just to cover the top 10 “Expensive” projects.&lt;/p&gt;
+
+&lt;p&gt;Once again, the recommended projects here are not endorsed by us, but more of a personal opinion for great NFT projects in the Solana space. Hope you loved the read!&lt;/p&gt;
+</description>
+                <pubDate>Thu, 14 Apr 2022 10:00:00 +1000</pubDate>
+                <link>http://localhost:4000/top-solana-nft-projects/</link>
+                <guid isPermaLink="true">http://localhost:4000/top-solana-nft-projects/</guid>
+                
+                <category>opinion</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>

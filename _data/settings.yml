@@ -17,8 +17,17 @@ author:
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: '⚙️ How it works'
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
       url: '/about/'
+    - title: 'Discord'
+      url: 'https://discord.gg/gnars'
+    - title: 'Governance'
+      url: 'https://nouns.build/dao/base/0x880Fb3Cf5c6Cc2d7DFC13a993E839a9411200C17'
+    - title: 'Farcaster'
+      url: 'https://warpcast.com/~/channel/gnars' 
+
 
 #-------------------------------
 # Hero Settings
@@ -58,14 +67,14 @@ mailchimp:
 # Footer Navigation
 footer__menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'About us'
+    - title: 'About'
       url: '/about/'
+    - title: 'Discord'
+      url: 'https://discord.gg/gnars'
     - title: 'Governance'
-      url: 'https://gnars.wtf'
-    - title: 'Authors'
-      url: '/authors/'
+      url: 'https://nouns.build/dao/base/0x880Fb3Cf5c6Cc2d7DFC13a993E839a9411200C17'
+    - title: 'Farcaster'
+      url: 'https://warpcast.com/~/channel/gnars'  
     
 # Social Links
 social:

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Gnars",
+  "background_color": "#121315",
+  "theme_color": "#121315",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "Gnars is an action sports accelerator and community owned brand. Headless so you can shred more. We bring shredders onchain and get them paid. ⌐◨-◨",
+  "icons": [{
+    "src": "/images/gnars.png",
+    "sizes":"any",
+    "type": "image/png"
+  }]
+}
