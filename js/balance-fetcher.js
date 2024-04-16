@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const ethAddress = '0x72ad986ebac0246d2b3c565ab2a1ce3a14ce6f88';
     const ethBalanceUrl = `https://api.basescan.org/api?module=account&action=balance&address=${ethAddress}&tag=latest&apikey=${apiKey}`;
     const usdcBalanceUrl = `https://api.basescan.org/api?module=account&action=tokenbalance&contractaddress=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&address=${ethAddress}&tag=latest&apikey=${apiKey}`;
-    const cacheKey = 'ethUsdcBalance';
+    const senditBalanceUrl = `https://api.basescan.org/api?module=account&action=tokenbalance&contractaddress=0xba5b9b2d2d06a9021eb3190ea5fb0e02160839a4&address=${ethAddress}&tag=latest&apikey=${apiKey}`;
+    const cacheKey = 'ethUsdcSenditBalance';
     const cachedData = JSON.parse(localStorage.getItem(cacheKey));
 
     // Function to display balance
@@ -43,6 +44,22 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             const usdcBalance = parseInt(data.result) / 1e6; // Convert smallest USDC unit to USDC
             totalInUsd += usdcBalance;
+
+            // Fetch Sendit balance
+            return fetch(senditBalanceUrl);
+        })
+        .then(response => response.json())
+        .then(data => {
+            const senditBalance = parseInt(data.result) / 1e18; // Convert smallest Sendit unit to Sendit
+            return fetch('https://api.coingecko.com/api/v3/simple/price?ids=sendit&vs_currencies=usd')
+                .then(res => res.json())
+                .then(priceData => {
+                    const senditToUsdRate = priceData.sendit.usd;
+                    return senditBalance * senditToUsdRate;
+                });
+        })
+        .then(senditBalanceInUsd => {
+            totalInUsd += senditBalanceInUsd;
 
             // Cache and display the result
             localStorage.setItem(cacheKey, JSON.stringify({ totalInUsd, timestamp: new Date().getTime() }));
