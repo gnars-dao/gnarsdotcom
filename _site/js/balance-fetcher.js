@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const apiKey = '3CTKXD9IQFXP2TEUK941FAR3QKUXST98HJ';
-    const ethAddress = '0xa1b74d2280966a89ac7e0f3a8bc5f0867c776d98';
-    const ethBalanceUrl = `https://api.etherscan.io/api?module=account&action=balance&address=${ethAddress}&tag=latest&apikey=${apiKey}`;
-    const usdcBalanceUrl = `https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48&address=${ethAddress}&tag=latest&apikey=${apiKey}`;
+    const apiKey = 'JAPCVP8VDFGKN6I9HVA371E2YHXQ5PARUQ';
+    const ethAddress = '0x72ad986ebac0246d2b3c565ab2a1ce3a14ce6f88';
+    const ethBalanceUrl = `https://api.basescan.org/api?module=account&action=balance&address=${ethAddress}&tag=latest&apikey=${apiKey}`;
+    const usdcBalanceUrl = `https://api.basescan.org/api?module=account&action=tokenbalance&contractaddress=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&address=${ethAddress}&tag=latest&apikey=${apiKey}`;
     const cacheKey = 'ethUsdcBalance';
     const cachedData = JSON.parse(localStorage.getItem(cacheKey));
 
