@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Gnars - Action Sports Accelerator
+title: Gnars - Action sports onchain
 logo: "/images/logo.png"
 description: Gnars is an action sports accelerator and community owned brand. Headless so you can shred more. We bring shredders onchain and get them paid. ⌐◨-◨
 
@@ -32,7 +32,7 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Action sports accelerator. Community owned brand. <span id="totalBalance">...loading...</a></span> in grants ready to deploy ✨
+  hero__title: Action sports onchain. Community owned. <span id="totalBalance">...loading...</a></span> in grants ready for risk takers ✨
 
 #-------------------------------
 # Blog Settings
