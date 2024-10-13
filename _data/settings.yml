@@ -79,7 +79,7 @@ footer__menu__settings:
 # Social Links
 social:
 - {icon: "ion-logo-twitter", color: "#55acee", name: Twitter, link: "https://twitter.com/gnars_dao"}
-- {icon: "ion-logo-instagram", color: "#e4405f", name: Instagram, link: "https://instagram.com/gnarsdao"}
+- {icon: "ion-logo-instagram", color: "#e4405f", name: Instagram, link: "https://instagram.com/gnarswtf"}
 - {icon: "ion-logo-github", color: "#2e2e2e", name: GitHub, link: "https://github.com/gnars-dao"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-youtube", color: "#ff0000", name: Youtube, link: "https://youtube.com"}
