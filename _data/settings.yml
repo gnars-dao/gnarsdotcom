@@ -32,7 +32,7 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Action sports onchain. Community owned. <span id="totalBalance">...loading...</a></span> in grants ready for risk takers ✨
+  hero__title: Gnars brings action sports onchain with crypto grants. Our treasury balance is <span id="totalBalance">...loading...</a></span> USD.
 
 #-------------------------------
 # Blog Settings
